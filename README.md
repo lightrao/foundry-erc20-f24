@@ -16,7 +16,19 @@ Talk about ERC20 contract
   forge init
   ```
 
-## EIP20 and ERC20
+## What is an ERC? What is an EIP?
 
+- EIP: Ethereum Improvement Proposal
+- ERC: Ethereum Request for Comments
+- BEP: Binance Evolution Proposal
+- PEP: Python Enhancement Proposal
 - go to `https://eips.ethereum.org/EIPS/eip-20`
 - go to `https://ethereum.org/en/developers/docs/standards/tokens/erc-20/`
+
+## What is an ERC20?
+
+- ERC-20
+- ERC-677
+- ERC-777
+
+## Manually Creating an ERC20 Token
