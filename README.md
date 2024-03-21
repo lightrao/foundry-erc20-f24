@@ -13,6 +13,9 @@ Talk about ERC20 contract
 
 - run:
   ```bash
+  mkdir foundry-erc20-f24
+  cd foundry-erc20-f24
+  code .
   forge init
   ```
 
@@ -32,3 +35,5 @@ Talk about ERC20 contract
 - ERC-777
 
 ## Manually Creating an ERC20 Token
+
+- create `ManualToken.sol`
