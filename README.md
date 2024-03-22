@@ -37,3 +37,15 @@ Talk about ERC20 contract
 ## Manually Creating an ERC20 Token
 
 - create `ManualToken.sol`
+
+## ERC20 Token - Openzeppelin
+
+- run
+  ```bash
+  forge install OpenZeppelin/openzeppelin-contracts --no-commit
+  ```
+- add `remappings` into `foundry.toml`
+- create `OurToken.sol`
+- run `forge build`
+
+## Deploy Script
