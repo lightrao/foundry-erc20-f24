@@ -66,3 +66,11 @@ Talk about ERC20 contract
   ```bash
   forge test --match-test testBobBalance
   ```
+- go to `https://etherscan.io/tokenapprovalchecker`, we can see the amount eth `transferFrom` can use
+- run:
+
+  ```bash
+  forge test --match-test testAllowancesWorks
+  forge test
+  forge coverage
+  ```
