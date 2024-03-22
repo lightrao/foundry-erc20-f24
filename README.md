@@ -49,3 +49,20 @@ Talk about ERC20 contract
 - run `forge build`
 
 ## Deploy Script
+
+- create `DeployOurToken.s.sol`
+- create `Makefile`
+- run:
+  ```bash
+  forge install
+  make anvil
+  make deploy
+  ```
+
+## AI Tests
+
+- create `OurTokenTest.t.sol`
+- run:
+  ```bash
+  forge test --match-test testBobBalance
+  ```
